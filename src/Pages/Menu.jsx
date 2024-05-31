@@ -8,7 +8,7 @@ export default function Menu() {
   const [category, setCategory] = useState(data)
 
   const showProducts = (menu) => {
-    const newMenu = data.filter(item => item.category.toLowerCase() === menu.toLowerCase())
+    const newMenu = data.filter(item => item.category === menu)
     setCategory(newMenu)
   }
 

@@ -34,20 +34,20 @@ export default function Navbar() {
             </ul>
           </div>
           <div className='navbar-right'>
-            <a type="text" className="position-relative">
+            <a type="button" className="position-relative">
               <FaBagShopping className="fs-3 my-2" color='black' />
               <span className="start-100 translate-middle badge rounded-pill bg-danger">
                 0
               </span>
             </a>
             <div className=''>
-              <button type="text" class="btn btn-outline-primary text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">log in</button>
+              <button type="button" className="btn btn-outline-primary text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">log in</button>
               <div class="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h1 class="modal-title fs-5" id="exampleModalLabel">S'inscrire</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       <form>
@@ -58,7 +58,7 @@ export default function Navbar() {
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre email..." />
                           </div>
                           <div className="mb-3">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre mot de passe..." />
+                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Votre mot de passe..." />
                           </div>
                           <p className='text-center'>
                             Deja un compte? <a href="button" className='text-dark'>Se connecter</a>
