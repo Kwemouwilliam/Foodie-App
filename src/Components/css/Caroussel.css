@@ -1,0 +1,8 @@
+.btn {
+    border-radius: 10rem;
+   
+}
+.carousel-inner{
+    filter: brightness(60%);
+    height: 32rem;
+}

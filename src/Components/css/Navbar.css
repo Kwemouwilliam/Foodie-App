@@ -1,0 +1,14 @@
+
+.nav-link:hover,.actives{
+    border-bottom: 3px solid;
+    color: chocolate !important;
+    
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    border-radius: 5px;
+}

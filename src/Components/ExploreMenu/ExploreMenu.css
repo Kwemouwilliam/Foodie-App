@@ -1,0 +1,16 @@
+.Explore-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button-menu{
+    border-radius: 5px;
+}
