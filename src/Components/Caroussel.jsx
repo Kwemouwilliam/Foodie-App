@@ -5,7 +5,7 @@ export default function Caroussel() {
   
   return (
    <>
-    <main className='container'>
+    <main className='container my-2'>
       <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
       </div>

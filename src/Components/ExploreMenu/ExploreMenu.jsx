@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './ExploreMenu.css'
 
 export default function ExploreMenu({ menu_image, menu_name, category, showProducts }) {

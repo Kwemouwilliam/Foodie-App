@@ -7,8 +7,9 @@
 .navbar-right{
     display: flex;
     align-items: center;
+    border-radius: 8px;
+}
+.Modal-Titre {
+    border-radius: 0px;
 }
 
-.button {
-    border-radius: 5px;
-}

@@ -7,8 +7,8 @@ import Root from '../Root';
 import Home from './Pages/Home';
 import Menu from './Pages/Menu';
 import Contact from './Pages/Contact';
+import ProduitItems from './Pages/ProduitItems';
 import ErrorPage from './Pages/ErrorPage';
-
 
 
 const router = createBrowserRouter([
@@ -29,7 +29,10 @@ const router = createBrowserRouter([
         path: "contact",
         element: <Contact/>
       },
-     
+      {
+        path: 'produit/:id',
+        element:<ProduitItems/>
+      },
     ]
   },
 ]);

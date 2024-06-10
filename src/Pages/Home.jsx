@@ -4,6 +4,8 @@ import { data } from '../../data'
 import Card from '../Components/Card'
 
 
+
+
 export default function Home() {
 
   return (
@@ -16,13 +18,7 @@ export default function Home() {
               data.map((item,index)=> {
                 return(
                   <div className="col-lg-3 col-md-6" key={index}>
-                      <Card 
-                          image={item.image}
-                          name={item.name}
-                          description={item.description}
-                          price={item.price}
-                          category={item.category}
-                        />  
+                      <Card produit={item}/>  
                     </div>
                 )
               })
